@@ -1,2 +1,2 @@
 # LandingPage
-Recreating Langding Page from The Odin Project
+Recreating Landing Page from The Odin Project
