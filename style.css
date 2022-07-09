@@ -78,8 +78,8 @@ a {
 button {
     background-color: #3883f6;
     color: #e5e7eb;
+    border: 2px solid #3883f6;
     font-weight: 700;
-    border: none;
     padding: 8px 24px;
     border-radius: 8px;
     margin-top: 8px;
@@ -127,4 +127,73 @@ button {
     margin-bottom: 72px;
 }
 
+@media (max-width: 1000px) {
+    .info-box {
+        width: 140px;
+        height: 140px;
+    }
+
+    .info {
+        max-width: 150px;
+    }
+
+    .container {
+        gap: 8px;
+    }
+}
+
 /* Quote */
+
+.quote {
+    background-color: #e5e7eb;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quote-text {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    max-width: 800px;
+}
+
+.author {
+    color: #1f2937;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 16px 0 0 40%;
+}
+
+/* Call to action */
+
+.modal-cta {
+    background: #3883f6;
+    width: 70%;
+    border-radius: 10px;
+    padding: 32px;
+    margin: 64px;
+    display: flex;
+}
+
+.cta-title {
+    color: #e5e7eb;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.cta-text {
+    color: #e5e7eb;
+}
+
+.cta-sign-up {
+    border: 2px solid #e5e7eb;
+    margin: 0 0 0 60%;
+}
+
+.cta-col {
+    flex: 1;
+}
