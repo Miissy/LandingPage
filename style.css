@@ -170,11 +170,17 @@ button {
 
 /* Call to action */
 
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .modal-cta {
     background: #3883f6;
     width: 70%;
     border-radius: 10px;
-    padding: 32px;
+    padding: 48px;
     margin: 64px;
     display: flex;
 }
@@ -191,9 +197,23 @@ button {
 
 .cta-sign-up {
     border: 2px solid #e5e7eb;
-    margin: 0 0 0 60%;
+    margin-left: 50%;
 }
 
 .cta-col {
     flex: 1;
+}
+
+/* Footer */
+
+footer {
+    background: #1f2937;
+    height: 104px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    color: #e5e7eb;
 }
